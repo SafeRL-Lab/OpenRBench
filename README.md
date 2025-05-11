@@ -2,7 +2,7 @@
 <img src="https://i.postimg.cc/KvkLzbF9/WX20241212-014400-2x.png"  width="100%" height="70%">
 </p>
 
-# The Evaluation Suite of Large Multimodal Models 
+# M4R: Measuring Massive Multi-Modal Understanding and Reasoning in Open Space
 
 ## Installation
 
