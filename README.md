@@ -1,8 +1,33 @@
-<p align="center" width="80%">
+
+<div align="center">
+  <a href="https://github.com/SafeRL-Lab/Robust-Gymnasium">
+    <img src="https://github.com/SafeRL-Lab/Open-Space-Reasoning/blob/master/docs/figures/logo-m4r.png" alt="Logo" width="280"> 
+  </a>
+  
+<h1 align="center" style="font-size: 30px;"><strong><em>M4R</em></strong>:  Measuring Massive Multi-Modal Understanding and Reasoning in Open Space</h1>
+<p align="center">
+    <a href="https://arxiv.org">Paper</a>
+    ·
+    <a href="https://github.com/Open-Space-Reasoning">Website</a>
+    ·
+    <a href="https://github.com/SafeRL-Lab/Open-Space-Reasoning/">Code</a>
+    ·
+    <a href="https://huggingface.co/Open-Space-Reasoning">Dataset</a>
+    ·
+    <a href="https://github.com/SafeRL-Lab/Open-Space-Reasoning/issues">Issue</a>
+  </p>
+</div>
+
+
+ ---
+
+<!--<p align="center" width="80%">
 <img src="https://github.com/SafeRL-Lab/Open-Space-Reasoning/blob/master/docs/figures/logo-m4r.png"  width="70%" height="70%">
 </p>
-
 # M4R: Measuring Massive Multi-Modal Understanding and Reasoning in Open Space
+-->
+
+
 
 ## Installation
 
