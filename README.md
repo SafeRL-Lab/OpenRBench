@@ -154,3 +154,7 @@ python3 -m pip install numpy==1.26;
 # Someties sentencepiece are required for tokenizer to work
 python3 -m pip install sentencepiece;
 ```
+
+## Acknowledgments
+
+We thank the contributors from [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval).
