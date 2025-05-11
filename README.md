@@ -1,5 +1,5 @@
 <p align="center" width="80%">
-<img src="https://github.com/SafeRL-Lab/Open-Space-Reasoning/blob/master/docs/figures/logo-m4r.png"  width="100%" height="70%">
+<img src="https://github.com/SafeRL-Lab/Open-Space-Reasoning/blob/master/docs/figures/logo-m4r.png"  width="70%" height="70%">
 </p>
 
 # M4R: Measuring Massive Multi-Modal Understanding and Reasoning in Open Space
