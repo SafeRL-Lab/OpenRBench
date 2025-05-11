@@ -33,6 +33,8 @@
 
 For development, you can install the package by cloning the repository and running the following command:
 ```bash
+conda create -n m4r311 python=3.11
+conda activate m4r311
 python3 -m pip install --user pipx
 python3 -m pipx ensurepath
 pipx install uv
@@ -41,6 +43,8 @@ git clone https://github.com/EvolvingLMMs-Lab/lmms-eval
 cd lmms-eval
 uv venv dev
 source dev/bin/activate
+
+cd ..
 uv pip install -e .
 ```
 
