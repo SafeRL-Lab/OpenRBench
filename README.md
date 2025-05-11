@@ -1,6 +1,6 @@
 
 <div align="center">
-  <a href="https://github.com/SafeRL-Lab/Robust-Gymnasium">
+  <a href="https://github.com/SafeRL-Lab/Open-Space-Reasoning">
     <img src="https://github.com/SafeRL-Lab/Open-Space-Reasoning/blob/master/docs/figures/logo-m4r.png" alt="Logo" width="60%"> 
   </a>
   
