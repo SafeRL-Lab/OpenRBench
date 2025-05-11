@@ -1,7 +1,7 @@
 
 <div align="center">
   <a href="https://github.com/SafeRL-Lab/Robust-Gymnasium">
-    <img src="https://github.com/SafeRL-Lab/Open-Space-Reasoning/blob/master/docs/figures/logo-m4r.png" alt="Logo" width="280"> 
+    <img src="https://github.com/SafeRL-Lab/Open-Space-Reasoning/blob/master/docs/figures/logo-m4r.png" alt="Logo" width="60%"> 
   </a>
   
 <h1 align="center" style="font-size: 30px;"><strong><em>M4R</em></strong>:  Measuring Massive Multi-Modal Understanding and Reasoning in Open Space</h1>
