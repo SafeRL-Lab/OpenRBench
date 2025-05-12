@@ -1,17 +1,50 @@
-<p align="center" width="80%">
-<img src="https://i.postimg.cc/KvkLzbF9/WX20241212-014400-2x.png"  width="100%" height="70%">
-</p>
 
-# The Evaluation Suite of Large Multimodal Models 
+<div align="center">
+  <a href="https://github.com/SafeRL-Lab/Open-Space-Reasoning">
+    <img src="https://github.com/SafeRL-Lab/Open-Space-Reasoning/blob/master/docs/figures/logo-m4r.png" alt="Logo" width="60%"> 
+  </a>
+  
+<h1 align="center" style="font-size: 30px;"><strong><em>M4R</em></strong>:  Measuring Massive Multi-Modal Understanding and Reasoning in Open Space</h1>
+<p align="center">
+    <a href="https://arxiv.org">Paper</a>
+    ·
+    <a href="https://github.com/Open-Space-Reasoning">Website</a>
+    ·
+    <a href="https://github.com/SafeRL-Lab/Open-Space-Reasoning/">Code</a>
+    ·
+    <a href="https://huggingface.co/Open-Space-Reasoning">Dataset</a>
+    ·
+    <a href="https://github.com/SafeRL-Lab/Open-Space-Reasoning/issues">Issue</a>
+  </p>
+</div>
+
+
+ ---
+
+<!--<p align="center" width="80%">
+<img src="https://github.com/SafeRL-Lab/Open-Space-Reasoning/blob/master/docs/figures/logo-m4r.png"  width="70%" height="70%">
+</p>
+# M4R: Measuring Massive Multi-Modal Understanding and Reasoning in Open Space
+-->
+
+
 
 ## Installation
 
 For development, you can install the package by cloning the repository and running the following command:
 ```bash
-git clone https://github.com/EvolvingLMMs-Lab/lmms-eval
+conda create -n m4r311 python=3.11
+conda activate m4r311
+python3 -m pip install --user pipx
+python3 -m pipx ensurepath
+pipx install uv
+
+git clone git@github.com:SafeRL-Lab/Open-Space-Reasoning.git
 cd lmms-eval
 uv venv dev
 source dev/bin/activate
+
+cd ..
 uv pip install -e .
 ```
 
@@ -121,3 +154,22 @@ python3 -m pip install numpy==1.26;
 # Someties sentencepiece are required for tokenizer to work
 python3 -m pip install sentencepiece;
 ```
+
+## Citation
+If you find the repository useful, please cite the study
+``` Bash
+@article{gu2025m4r,
+  title={M4R: Measuring Massive Multi-Modal Understanding and Reasoning in Open Space},
+  author={Gu, Shangding and Wang, Xiaohan and Ying, Donghao and Zhao, Haoyu and Yang, Runing and Li, Boyi and Jin, Ming and Pavone, Marco and Yeung-Levy, Serena and Wang, Jun and Song, Dawn and Spanos, Costas},
+  journal={Github},
+  year={2025}
+}
+```
+
+
+
+
+
+## Acknowledgments
+
+We thank the contributors from [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval).
