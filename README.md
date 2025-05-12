@@ -40,6 +40,7 @@ cd Open-Space-Reasoning
 uv venv dev
 source dev/bin/activate
 uv pip install -e .
+uv pip install -U "qwen-vl-utils"   
 ```
 
 ### Basic Usage
