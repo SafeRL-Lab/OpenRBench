@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "dataset": "land_space_short",
+    "scene_name": "000001",
+    "reasoning_style": "temporal_causal_reasoning",
+    "question": "How many moving vehicles have been or are going to be passed by the ego vehicle while those vehicles are traveling in the opposite direction of the ego vehicle's initial navigation?",
+    "ground_truth": "B",
+    "options": [
+      "A. [0,3]",
+      "B. [4,7]",
+      "C. [8,11]"
+    ]
+  },
+  {
+    "id": 2,
+    "dataset": "land_space_short",
+    "scene_name": "000002",
+    "reasoning_style": "temporal_causal_reasoning",
+    "question": "How many moving vehicles have been or are going to be passed by the ego vehicle while those vehicles are traveling in the opposite direction of the ego vehicle's initial navigation?",
+    "ground_truth": "B",
+    "options": [
+      "A. [0,3]",
+      "B. [4,7]",
+      "C. [8,11]"
+    ]
+  },
+  {
+    "id": 3,
+    "dataset": "land_space_short",
+    "scene_name": "000003",
+    "reasoning_style": "temporal_causal_reasoning",
+    "question": "How many moving vehicles have been or are going to be passed by the ego vehicle while those vehicles are traveling in the opposite direction of the ego vehicle's initial navigation?",
+    "ground_truth": "B",
+    "options": [
+      "A. [0,3]",
+      "B. [4,7]",
+      "C. [8,11]"
+    ]
+  },
+  {
+    "id": 4,
+    "dataset": "land_space_short",
+    "scene_name": "000004",
+    "reasoning_style": "temporal_causal_reasoning",
+    "question": "How many moving vehicles have been or are going to be passed by the ego vehicle while those vehicles are traveling in the opposite direction of the ego vehicle's initial navigation?",
+    "ground_truth": "A",
+    "options": [
+      "A. [0,3]",
+      "B. [4,7]",
+      "C. [8,11]"
+    ]
+  },
+  {
+    "id": 5,
+    "dataset": "land_space_short",
+    "scene_name": "000005",
+    "reasoning_style": "temporal_causal_reasoning",
+    "question": "How many moving vehicles have been or are going to be passed by the ego vehicle while those vehicles are traveling in the opposite direction of the ego vehicle's initial navigation?",
+    "ground_truth": "A",
+    "options": [
+      "A. [0,3]",
+      "B. [4,7]",
+      "C. [8,11]"
+    ]
+  },
+  {
+    "id": 6,
+    "dataset": "land_space_short",
+    "scene_name": "000006",
+    "reasoning_style": "temporal_causal_reasoning",
+    "question": "How many moving vehicles have been or are going to be observed by the ego vehicle while those vehicles are traveling in the same direction of the ego vehicle's initial navigation?",
+    "ground_truth": "A",
+    "options": [
+      "A. [0,3]",
+      "B. [4,7]",
+      "C. [8,11]"
+    ]
+  },
+  {
+    "id": 7,
+    "dataset": "land_space_short",
+    "scene_name": "000007",
+    "reasoning_style": "temporal_causal_reasoning",
+    "question": "How many moving vehicles have been or are going to be passed by the ego vehicle while those vehicles are traveling in the opposite direction of the ego vehicle's initial navigation?",
+    "ground_truth": "A",
+    "options": [
+      "A. [0,3]",
+      "B. [4,7]",
+      "C. [8,11]"
+    ]
+  },
+  {
+    "id": 8,
+    "dataset": "land_space_short",
+    "scene_name": "000008",
+    "reasoning_style": "temporal_causal_reasoning",
+    "question": "How many moving vehicles have been or are going to be passed by the ego vehicle while those vehicles are traveling in the opposite direction of the ego vehicle's initial navigation?",
+    "ground_truth": "A",
+    "options": [
+      "A. [0,3]",
+      "B. [4,7]",
+      "C. [8,11]"
+    ]
+  },
+  {
+    "id": 9,
+    "dataset": "land_space_short",
+    "scene_name": "000009",
+    "reasoning_style": "temporal_causal_reasoning",
+    "question": "How many moving vehicles have been or are going to be passed by the ego vehicle while those vehicles are traveling in the opposite direction of the ego vehicle's initial navigation?",
+    "ground_truth": "B",
+    "options": [
+      "A. [0,3]",
+      "B. [4,7]",
+      "C. [8,11]"
+    ]
+  },
+  {
+    "id": 10,
+    "dataset": "land_space_short",
+    "scene_name": "000010",
+    "reasoning_style": "temporal_causal_reasoning",
+    "question": "How many moving vehicles have been or are going to be passed by the ego vehicle while those vehicles are traveling in the opposite direction of the ego vehicle's initial navigation?",
+    "ground_truth": "A",
+    "options": [
+      "A. [0,3]",
+      "B. [4,7]",
+      "C. [8,11]"
+    ]
+  }
+] 

@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "dataset": "land_space_short",
+        "scene_name": "000001",
+        "reasoning_style": "spatial_reasoning",
+        "question": "If I am standing at the road facing the end of the collision black car when the initial collision happens, is the ego car to my front-left, front-right, back-left, or back-right?",
+        "ground_truth": "A",
+        "options": [
+            "A. left",
+            "B. right"
+        ]
+    },
+    {
+        "id": 2,
+        "dataset": "land_space_short",
+        "scene_name": "000002",
+        "reasoning_style": "spatial_reasoning",
+        "question": "If I am standing at the road facing the end of the collision white car when the initial collision happens, is the truck car to my front-left, front-right, back-left, or back-right?",
+        "ground_truth": "A",
+        "options": [
+            "A. left",
+            "B. right"
+        ]
+    },
+    {
+        "id": 3,
+        "dataset": "land_space_short",
+        "scene_name": "000003",
+        "reasoning_style": "spatial_reasoning",
+        "question": "If I am standing at the road facing the end of the collision white car when the initial collision happens, is the ego car to my front-left, front-right, back-left, or back-right?",
+        "ground_truth": "A",
+        "options": [
+            "A. left",
+            "B. right"
+        ]
+    },
+    {
+        "id": 4,
+        "dataset": "land_space_short",
+        "scene_name": "000004",
+        "reasoning_style": "spatial_reasoning",
+        "question": "If I am standing at the road facing the end of the collision white car and closing to the white car driver when the initial collision happens, is the ego car to my front-left, front-right, back-left, or back-right?",
+        "ground_truth": "B",
+        "options": [
+            "A. left",
+            "B. right"
+        ]
+    },
+    {
+        "id": 5,
+        "dataset": "land_space_short",
+        "scene_name": "000005",
+        "reasoning_style": "spatial_reasoning",
+        "question": "If I am standing at the road facing the end of the collision black car and closing to the collision black car's driver when the initial collision happens, is the ego car to my front-left, front-right, back-left, or back-right?",
+        "ground_truth": "A",
+        "options": [
+            "A. left",
+            "B. right"
+        ]
+    },
+    {
+        "id": 6,
+        "dataset": "land_space_short",
+        "scene_name": "000006",
+        "reasoning_style": "spatial_reasoning",
+        "question": "If I am standing at the road facing the front of the collision white car and closing to the collision white car's driver when the initial collision happens, is the ego car to my front-left, front-right, back-left, or back-right?",
+        "ground_truth": "A",
+        "options": [
+            "A. left",
+            "B. right"
+        ]
+    },
+    {
+        "id": 7,
+        "dataset": "land_space_short",
+        "scene_name": "000007",
+        "reasoning_style": "spatial_reasoning",
+        "question": "If I am standing at the road facing the front of the ego car and closing to the ego car's driver when the initial collision happens, is the collision white car to my front-left, front-right, back-left, or back-right?",
+        "ground_truth": "A",
+        "options": [
+            "A. left",
+            "B. right"
+        ]
+    },
+    {
+        "id": 8,
+        "dataset": "land_space_short",
+        "scene_name": "000008",
+        "reasoning_style": "spatial_reasoning",
+        "question": "If I am standing at the road facing the end of the ego car and closing to the ego car's driver when the initial collision happens, is the black car to my front-left, front-right, back-left, or back-right?",
+        "ground_truth": "B",
+        "options": [
+            "A. left",
+            "B. right"
+        ]
+    },
+    {
+        "id": 9,
+        "dataset": "land_space_short",
+        "scene_name": "000009",
+        "reasoning_style": "spatial_reasoning",
+        "question": "If I am standing at the road facing the front of the collision white car and closing to the collision white car's driver when the initial collision happens, is the ego car to my front-left, front-right, back-left, or back-right?",
+        "ground_truth": "B",
+        "options": [
+            "A. left",
+            "B. right"
+        ]
+    },
+    {
+        "id": 10,
+        "dataset": "land_space_short",
+        "scene_name": "000010",
+        "reasoning_style": "spatial_reasoning",
+        "question": "If I am standing at the road facing the end of the collision white car and closing to the end of the ego car's driver when the initial collision happens, is the collision white car to my front-left, front-right, back-left, or back-right?",
+        "ground_truth": "B",
+        "options": [
+            "A. left",
+            "B. right"
+        ]
+    }
+] 

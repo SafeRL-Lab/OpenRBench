@@ -46,4 +46,5 @@ scripts/
 .env
 outputs/
 span.log
-land_space/
+*.mp4
+*.avi

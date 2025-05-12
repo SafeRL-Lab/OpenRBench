@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "dataset": "land_space_short",
+    "scene_name": "000001",
+    "reasoning_style": "temporal_causal_reasoning",
+    "question": "How many cars are passed before collision in this video?",
+    "ground_truth": "B",
+    "options": [
+      "A. [0,3]",
+      "B. [4,7]",
+      "C. [8,11]"
+    ]
+  },
+  {
+    "id": 2,
+    "dataset": "land_space_short",
+    "scene_name": "000002",
+    "reasoning_style": "temporal_causal_reasoning",
+    "question": "How many cars are observed in the opposite direction of big truck before collision in this video?",
+    "ground_truth": "B",
+    "options": [
+      "A. [0,3]",
+      "B. [4,7]",
+      "C. [8,11]"
+    ]
+  },
+  {
+    "id": 3,
+    "dataset": "land_space_short",
+    "scene_name": "000003",
+    "reasoning_style": "temporal_causal_reasoning",
+    "question": "How many stationary cars are observed before collision in this video?",
+    "ground_truth": "C",
+    "options": [
+      "A. [0,3]",
+      "B. [4,7]",
+      "C. [8,11]"
+    ]
+  },
+  {
+    "id": 4,
+    "dataset": "land_space_short",
+    "scene_name": "000004",
+    "reasoning_style": "temporal_causal_reasoning",
+    "question": "Which car violated the traffic rules?",
+    "ground_truth": "B",
+    "options": [
+      "A. the pick-truck car ~ the pick-truck car",
+      "B. the moving white car ~ the moving white car",
+      "C. the stationary black car ~ the stationary yellow car"
+    ]
+  },
+  {
+    "id": 5,
+    "dataset": "land_space_short",
+    "scene_name": "000005",
+    "reasoning_style": "temporal_causal_reasoning",
+    "question": "Which car violated the traffic rules?",
+    "ground_truth": "C",
+    "options": [
+      "A. the pick-truck car ~ the pick-truck car",
+      "B. the moving white car ~ the moving white car",
+      "C. the moving black car ~ the moving blue car"
+    ]
+  },
+  {
+    "id": 6,
+    "dataset": "land_space_short",
+    "scene_name": "000006",
+    "reasoning_style": "temporal_causal_reasoning",
+    "question": "Which car are not violated the traffic rules?",
+    "ground_truth": "B",
+    "options": [
+      "A. the pick-truck car ~ the pick-truck car",
+      "B. the moving white car ~ the moving white car",
+      "C. the moving black car ~ the moving blue car"
+    ]
+  },
+  {
+    "id": 7,
+    "dataset": "land_space_short",
+    "scene_name": "000007",
+    "reasoning_style": "temporal_causal_reasoning",
+    "question": "How many cars are observed before collision in this video?",
+    "ground_truth": "B",
+    "options": [
+      "A. [0,3]",
+      "B. [4,7]",
+      "C. [8,11]"
+    ]
+  },
+  {
+    "id": 8,
+    "dataset": "land_space_short",
+    "scene_name": "000008",
+    "reasoning_style": "temporal_causal_reasoning",
+    "question": "Which car are violated the traffic rules?",
+    "ground_truth": "B",
+    "options": [
+      "A. the pick-truck car ~ the pick-truck car",
+      "B. the moving white car ~ the moving white car",
+      "C. the moving black car ~ the moving blue car"
+    ]
+  },
+  {
+    "id": 9,
+    "dataset": "land_space_short",
+    "scene_name": "000009",
+    "reasoning_style": "temporal_causal_reasoning",
+    "question": "How many cars are passed the ego car in the opposite direction of the ego car before collision in this video?",
+    "ground_truth": "A",
+    "options": [
+      "A. [0,3]",
+      "B. [4,7]",
+      "C. [8,11]"
+    ]
+  },
+  {
+    "id": 10,
+    "dataset": "land_space_short",
+    "scene_name": "000010",
+    "reasoning_style": "temporal_causal_reasoning",
+    "question": "Which car are violated the traffic rules?",
+    "ground_truth": "B",
+    "options": [
+      "A. the pick-truck car ~ the pick-truck car",
+      "B. the moving white car ~ the moving white car",
+      "C. the moving black car ~ the moving blue car"
+    ]
+  }
+] 
