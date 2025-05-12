@@ -33,18 +33,12 @@
 
 For development, you can install the package by cloning the repository and running the following command:
 ```bash
-conda create -n m4r311 python=3.11
-conda activate m4r311
-python3 -m pip install --user pipx
-python3 -m pipx ensurepath
-pipx install uv
+pip install uv
 
 git clone git@github.com:SafeRL-Lab/Open-Space-Reasoning.git
-cd lmms-eval
+cd Open-Space-Reasoning
 uv venv dev
 source dev/bin/activate
-
-cd ..
 uv pip install -e .
 ```
 
