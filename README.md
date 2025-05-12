@@ -39,7 +39,7 @@ python3 -m pip install --user pipx
 python3 -m pipx ensurepath
 pipx install uv
 
-git clone https://github.com/EvolvingLMMs-Lab/lmms-eval
+git clone git@github.com:SafeRL-Lab/Open-Space-Reasoning.git
 cd lmms-eval
 uv venv dev
 source dev/bin/activate
