@@ -6,7 +6,7 @@ from collections import defaultdict
 
 def land_space_doc_to_visual(doc):
     # 使用配置文件中定义的 dataset_path
-    dataset_path = doc.get("dataset_path", "/pasteur2/u/xhanwang/lmms-eval/land_space/short")
+    dataset_path = doc.get("dataset_path", "/home/jovyan/workspace/Benchmark/land_space/medium")
     video_dir = Path(dataset_path) / "videos"
     video_path = video_dir / f"{doc['scene_name']}.mp4"
     
@@ -17,6 +17,8 @@ def land_space_doc_to_visual(doc):
         return [str(video_path.with_suffix(".MP4"))]
     elif video_path.with_suffix(".mkv").exists():
         return [str(video_path.with_suffix(".mkv"))]
+    elif video_path.with_suffix(".avi").exists():
+        return [str(video_path.with_suffix(".avi"))]
     else:
         raise FileNotFoundError(f"Video not found: {video_path}")
 
@@ -80,7 +82,7 @@ def land_space_process_results(doc, results):
         "pred_answer": pred,
         "answer": gold,
         "correct": correct,
-        "raw_output": results[0] if isinstance(results, list) else results  # 保存原始输出
+        "raw_output": results[0] if isinstance(results, list) else results  
     }
     
     return {
