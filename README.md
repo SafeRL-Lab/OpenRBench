@@ -8,11 +8,11 @@
 <p align="center">
     <a href="https://arxiv.org">Paper</a>
     ·
-    <a href="https://github.com/Open-Space-Reasoning">Website</a>
+    <a href="https://open-space-reasoning.github.io/">Website</a>
     ·
     <a href="https://github.com/SafeRL-Lab/Open-Space-Reasoning/">Code</a>
     ·
-    <a href="https://huggingface.co/Open-Space-Reasoning">Dataset</a>
+    <a href="https://huggingface.co/datasets/Open-Space-Reasoning/Benchmark">Dataset</a>
     ·
     <a href="https://github.com/SafeRL-Lab/Open-Space-Reasoning/issues">Issue</a>
   </p>
