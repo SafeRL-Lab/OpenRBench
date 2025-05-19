@@ -1,18 +1,19 @@
 
 <div align="center">
   <a href="https://github.com/SafeRL-Lab/Open-Space-Reasoning">
-    <img src="https://github.com/SafeRL-Lab/Open-Space-Reasoning/blob/master/docs/figures/logo-m4r.png" alt="Logo" width="60%"> 
+    <img src="./docs/figures/logo-m4r.png" alt="Logo" width="60%"> 
   </a>
   
 <h1 align="center" style="font-size: 30px;"><strong><em>M4R</em></strong>:  Measuring Massive Multi-Modal Understanding and Reasoning in Open Space</h1>
 <p align="center">
-    <a href="https://arxiv.org">Paper</a>
+    <a href="./docs/M4R_paper.pdf">Paper</a>
     ·
     <a href="https://open-space-reasoning.github.io/">Website</a>
     ·
     <a href="https://github.com/SafeRL-Lab/Open-Space-Reasoning/">Code</a>
+    <a href="https://open-space-reasoning.github.io/#leaderboard-land-air">Leaderboard 🏆</a>
     ·
-    <a href="https://huggingface.co/datasets/Open-Space-Reasoning/Benchmark">Dataset</a>
+    <a href="https://huggingface.co/datasets/Open-Space-Reasoning/Benchmark">Dataset 🤗</a>
     ·
     <a href="https://github.com/SafeRL-Lab/Open-Space-Reasoning/issues">Issue</a>
   </p>
@@ -43,11 +44,11 @@ uv pip install -e .
 uv pip install -U "qwen-vl-utils"   
 ```
 
-```bash
+<!-- ```bash
 uv venv -p python3.11.5 dev311
 source dev311/bin/activate
 uv pip install -e .
-```
+``` -->
 
 
 
@@ -159,6 +160,10 @@ python3 -m pip install numpy==1.26;
 python3 -m pip install sentencepiece;
 ```
 
+## Leaderboard
+
+
+
 ## Citation
 If you find the repository useful, please cite the study
 ``` Bash
@@ -176,8 +181,7 @@ If you find the repository useful, please cite the study
 
 ## Acknowledgments
 
-Here's a polished version of your sentence:
-
 This repository is adapted from [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) for use in our benchmark. We thank the contributors of *lmms-eval* for their efforts and contributions.
+
 
 
