@@ -6,14 +6,14 @@
   
 <h1 align="center" style="font-size: 30px;"><strong><em>M4R</em></strong>:  Measuring Massive Multi-Modal Understanding and Reasoning in Open Space</h1>
 <p align="center">
-    <a href="./docs/M4R_paper.pdf">Paper</a>
-    ·
+    <!-- <a href="./docs/M4R_paper.pdf">Paper</a> -->
+    <!-- · -->
     <a href="https://open-space-reasoning.github.io/">Website</a>
     ·
     <a href="https://github.com/SafeRL-Lab/Open-Space-Reasoning/">Code</a>
-    <a href="https://open-space-reasoning.github.io/#leaderboard-land-air">Leaderboard 🏆</a>
+    <a href="https://open-space-reasoning.github.io/#leaderboard-land-air">Leaderboard</a>
     ·
-    <a href="https://huggingface.co/datasets/Open-Space-Reasoning/Benchmark">Dataset 🤗</a>
+    <a href="https://huggingface.co/datasets/Open-Space-Reasoning/Benchmark">Dataset</a>
     ·
     <a href="https://github.com/SafeRL-Lab/Open-Space-Reasoning/issues">Issue</a>
   </p>
@@ -56,6 +56,10 @@ uv pip install -e .
 ### Basic Usage
 
 Here's a basic evaluation example:
+
+
+> Download the dataset from [Hugging Face](https://huggingface.co/datasets/Open-Space-Reasoning/Benchmark), and set the dataset path to the corresponding task file. For example, specify the dataset path as `/your-dataset-path/land_space/short/hard/spatial_reasoning.json` in the task configuration file located at `/Open-Space-Reasoning/lmms_eval/tasks/land_space_short/land_space_hard.yaml`.
+
 
 ```bash
 accelerate launch --num_processes=1 --main_process_port=12346 -m lmms_eval \
@@ -160,7 +164,7 @@ python3 -m pip install numpy==1.26;
 python3 -m pip install sentencepiece;
 ```
 
-## Leaderboard
+
 
 
 
