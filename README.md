@@ -4,7 +4,7 @@
     <img src="./docs/figures/logo-m4r.png" alt="Logo" width="60%"> 
   </a>
   
-<h1 align="center" style="font-size: 30px;"><strong><em>M4R</em></strong>:  Measuring Massive Multimodal Understanding and Reasoning in Open Space</h1>
+<h1 align="center" style="font-size: 30px;"><strong><em>OpenRBench</em></strong>:  Measuring Massive Multimodal Understanding and Reasoning in Open Space</h1>
 <p align="center">
     <!-- <a href="./docs/M4R_paper.pdf">Paper</a> -->
     <!-- · -->
@@ -172,7 +172,7 @@ python3 -m pip install sentencepiece;
 If you find the repository useful, please cite the study
 ``` Bash
 @article{gu2025m4r,
-  title={M4R: Measuring Massive Multimodal Understanding and Reasoning in Open Space},
+  title={Measuring Massive Multimodal Understanding and Reasoning in Open Space},
   author={Gu, Shangding and Wang, Xiaohan and Ying, Donghao and Zhao, Haoyu and Yang, Runing and Li, Boyi and Jin, Ming and Pavone, Marco and Yeung-Levy, Serena and Wang, Jun and Song, Dawn and Spanos, Costas},
   journal={Github},
   year={2025}
