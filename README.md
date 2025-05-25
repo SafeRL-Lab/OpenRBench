@@ -11,6 +11,7 @@
     <a href="https://open-space-reasoning.github.io/">Website</a>
     ·
     <a href="https://github.com/SafeRL-Lab/Open-Space-Reasoning/">Code</a>
+    ·
     <a href="https://open-space-reasoning.github.io/#leaderboard-land-air">Leaderboard</a>
     ·
     <a href="https://huggingface.co/datasets/Open-Space-Reasoning/Benchmark">Dataset</a>
