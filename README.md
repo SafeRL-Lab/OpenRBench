@@ -37,8 +37,8 @@ For development, you can install the package by cloning the repository and runni
 ```bash
 pip install uv
 
-git clone git@github.com:SafeRL-Lab/Open-Space-Reasoning.git
-cd Open-Space-Reasoning
+git clone git@github.com:SafeRL-Lab/m4r.git
+cd m4r
 uv venv dev
 source dev/bin/activate
 uv pip install -e .
