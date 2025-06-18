@@ -9,7 +9,7 @@ def count_ids_in_json(filepath):
             if isinstance(data, list):
                 return len([item for item in data if 'id' in item])
             elif isinstance(data, dict):
-                return len([k for k in data if 'id' in data[k]])
+                return len([k for k in data if isinstance(data[k], dict) and 'id' in data[k]])
     except Exception as e:
         print(f"Error reading {filepath}: {e}")
     return 0
@@ -26,12 +26,17 @@ def scan_directory(root_dir):
                 stats[folder_key][reasoning_type] += count
     return stats
 
-# 用法示例
-root_folder = "OpenRBench"  # 替换为你的根目录路径
+def save_to_json(data, output_path):
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+# === 使用示例 ===
+root_folder = "OpenRBench"  # 请替换为你的目录路径
+output_file = "reasoning_count_summary.json"
+
 results = scan_directory(root_folder)
 
-# 输出结果
-for folder, types in results.items():
-    print(f"\nFolder: {folder}")
-    for reasoning_type, count in types.items():
-        print(f"  {reasoning_type}: {count}")
+# 将 defaultdict 转换为普通 dict 后保存
+save_to_json({k: dict(v) for k, v in results.items()}, output_file)
+
+print(f"统计结果已保存到: {output_file}")
