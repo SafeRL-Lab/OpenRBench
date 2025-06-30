@@ -101,7 +101,11 @@ source dev311/bin/activate
 uv pip install -e .
 ``` -->
 
+## Download Dataset
 
+You can download the dataset directly from our [Hugging Face repository](https://huggingface.co/datasets/Open-Space-Reasoning/Benchmark).
+If you encounter any issues during the download, we also provide a zipped version for convenience:
+[Download Dataset (ZIP)](https://huggingface.co/datasets/Open-Space-Reasoning/M4R-zip)
 
 
 
