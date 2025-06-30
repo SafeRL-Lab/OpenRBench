@@ -86,7 +86,6 @@ More results can be found at the link: [https://open-space-reasoning.github.io/]
 For development, you can install the package by cloning the repository and running the following command:
 ```bash
 pip install uv
-
 git clone git@github.com:SafeRL-Lab/m4r.git
 cd m4r
 uv venv dev
