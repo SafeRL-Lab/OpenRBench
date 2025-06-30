@@ -305,7 +305,7 @@ If you find the repository useful, please cite the study
 
 
 
-## Acknowledgments
+## Acknowledgment
 
 This repository is adapted from [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) for use in our benchmark. We thank the contributors of *lmms-eval* for their efforts and contributions.
 
