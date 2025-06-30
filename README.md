@@ -123,8 +123,6 @@ uv pip install -e .
   </p>
 </div>
 
-## Project Homepage:
-https://open-space-reasoning.github.io/
 
 ## About the Dataset:
 This benchmark includes approximately 2,000 videos and 19,000 human-annotated question-answer pairs, covering a wide range of reasoning tasks (as shown in Figure 1). All annotations were performed by highly educated annotators, each holding at least a master's degree in engineering-related fields such as mathematics or computer science. The dataset features a variety of video lengths, categories, and frame counts, and spans three primary open-space reasoning scenarios: **land space**, **water space**, and **air space**. An overview of the dataset’s characteristics is shown in Figure 2, which illustrates the distributions of video duration, domain coverage, and reasoning styles. During annotation, we first design the hard-level tasks and label each question with the ground-truth answer. Based on these, we then construct the medium and easy tasks. The primary differences between difficulty levels lie in the number and types of answer choices. Details of the annotation procedure and difficulty levels are provided in our [paper](https://open-space-reasoning.github.io/static/papers/M4R_paper.pdf).
@@ -132,7 +130,7 @@ This benchmark includes approximately 2,000 videos and 19,000 human-annotated qu
 ### Dataset Format:
 
  <div align=center>
- <img src="./figures/qa-example.png" width="85%"/> 
+ <img src="./docs/figures/qa-example.png" width="85%"/> 
  </div>
 <div align=center>
 <center style="color:#000000;text-decoration:underline">Figure 1.  A question and answer example: For each open-space reasoning setting, we include three
@@ -143,7 +141,7 @@ evaluate temporal reasoning, spatial reasoning, and intent reasoning.</center>
  
 ### Dataset Distribution:
  <div align=center>
- <img src="./figures/data_distribution.png" width="85%"/> 
+ <img src="./docs/figures/data_distribution.png" width="85%"/> 
  </div>
 <div align=center>
 <center style="color:#000000;text-decoration:underline">Figure 2. Distribution of video and task properties in the M4R benchmark.</center>
@@ -154,7 +152,7 @@ evaluate temporal reasoning, spatial reasoning, and intent reasoning.</center>
 ### Three Space Settings
 
 <div align=center>
- <img src="./figures/three-example-scenarios.png" width="85%"/> 
+ <img src="./docs/figures/three-example-scenarios.png" width="85%"/> 
  </div>
 <div align=center>
 <center style="color:#000000;text-decoration:underline">Figure 3. Examples of multimodal Understanding and Reasoning in Open-Space Scenarios.</center>
@@ -163,7 +161,7 @@ evaluate temporal reasoning, spatial reasoning, and intent reasoning.</center>
 ### Reasoning Settings:
 
  <div align=center>
- <img src="./figures/reasoning-settings.png" width="85%"/> 
+ <img src="./docs/figures/reasoning-settings.png" width="85%"/> 
  </div>
 <div align=center>
 <center style="color:#000000;text-decoration:underline">Figure 4.  Examples of reasoning question settings in M4R across three key reasoning types: Temporal
@@ -175,7 +173,7 @@ understanding of goal-directed behaviors and decision-making in dynamic environm
  ### One Example in Land Space Settings:
 
  <div align=center>
- <img src="./figures/land-space-examples.png" width="85%"/> 
+ <img src="./docs/figures/land-space-examples.png" width="85%"/> 
  </div>
 <div align=center>
 <center style="color:#000000;text-decoration:underline">Figure 5.  Land-space traffic accident scenarios for open-space video understanding and reasoning include
