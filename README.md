@@ -16,6 +16,8 @@
     ·
     <a href="https://huggingface.co/datasets/Open-Space-Reasoning/Benchmark">Dataset</a>
     ·
+    <a href="https://huggingface.co/datasets/Open-Space-Reasoning/M4R-zip">Dataset-Zip</a>
+    ·
     <a href="https://github.com/SafeRL-Lab/Open-Space-Reasoning/issues">Issue</a>
   </p>
 </div>
