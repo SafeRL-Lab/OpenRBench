@@ -100,6 +100,95 @@ source dev311/bin/activate
 uv pip install -e .
 ``` -->
 
+<div align="center">
+  <a href="https://github.com/SafeRL-Lab/Open-Space-Reasoning">
+    <img src="./figures/logo-m4r.png" alt="Logo" width="60%"> 
+  </a>
+  
+<h1 align="center" style="font-size: 30px;"><strong><em>M4R</em></strong>:  Measuring Massive Multimodal Understanding and Reasoning in Open Space</h1>
+<p align="center">
+    <!-- <a href="./docs/M4R_paper.pdf">Paper</a> -->
+    <!-- · -->
+    <a href="https://open-space-reasoning.github.io/">Website</a>
+    ·
+    <a href="https://github.com/SafeRL-Lab/Open-Space-Reasoning/">Code</a>
+    ·
+    <a href="https://open-space-reasoning.github.io/#leaderboard-land-air">Leaderboard</a>
+    ·
+    <a href="https://huggingface.co/datasets/Open-Space-Reasoning/Benchmark">Dataset</a>
+    ·
+    <a href="https://huggingface.co/datasets/Open-Space-Reasoning/M4R-zip">Dataset-Zip</a>
+    ·
+    <a href="https://github.com/SafeRL-Lab/Open-Space-Reasoning/issues">Issue</a>
+  </p>
+</div>
+
+## Project Homepage:
+https://open-space-reasoning.github.io/
+
+## About the Dataset:
+This benchmark includes approximately 2,000 videos and 19,000 human-annotated question-answer pairs, covering a wide range of reasoning tasks (as shown in Figure 1). All annotations were performed by highly educated annotators, each holding at least a master's degree in engineering-related fields such as mathematics or computer science. The dataset features a variety of video lengths, categories, and frame counts, and spans three primary open-space reasoning scenarios: **land space**, **water space**, and **air space**. An overview of the dataset’s characteristics is shown in Figure 2, which illustrates the distributions of video duration, domain coverage, and reasoning styles. During annotation, we first design the hard-level tasks and label each question with the ground-truth answer. Based on these, we then construct the medium and easy tasks. The primary differences between difficulty levels lie in the number and types of answer choices. Details of the annotation procedure and difficulty levels are provided in our [paper](https://open-space-reasoning.github.io/static/papers/M4R_paper.pdf).
+
+### Dataset Format:
+
+ <div align=center>
+ <img src="./figures/qa-example.png" width="85%"/> 
+ </div>
+<div align=center>
+<center style="color:#000000;text-decoration:underline">Figure 1.  A question and answer example: For each open-space reasoning setting, we include three
+types of video lengths: short, medium, and long. Each video length includes tasks designed to
+evaluate temporal reasoning, spatial reasoning, and intent reasoning.</center>
+ </div>
+
+ 
+### Dataset Distribution:
+ <div align=center>
+ <img src="./figures/data_distribution.png" width="85%"/> 
+ </div>
+<div align=center>
+<center style="color:#000000;text-decoration:underline">Figure 2. Distribution of video and task properties in the M4R benchmark.</center>
+ </div>
+
+
+
+### Three Space Settings
+
+<div align=center>
+ <img src="./figures/three-example-scenarios.png" width="85%"/> 
+ </div>
+<div align=center>
+<center style="color:#000000;text-decoration:underline">Figure 3. Examples of multimodal Understanding and Reasoning in Open-Space Scenarios.</center>
+ </div>
+
+### Reasoning Settings:
+
+ <div align=center>
+ <img src="./figures/reasoning-settings.png" width="85%"/> 
+ </div>
+<div align=center>
+<center style="color:#000000;text-decoration:underline">Figure 4.  Examples of reasoning question settings in M4R across three key reasoning types: Temporal
+Reasoning, which involves understanding event sequences and motion over time; Spatial Reasoning,
+which focuses on relative positioning and orientation in space; and Intent Reasoning, which evaluates
+understanding of goal-directed behaviors and decision-making in dynamic environments..</center>
+ </div>
+
+ ### One Example in Land Space Settings:
+
+ <div align=center>
+ <img src="./figures/land-space-examples.png" width="85%"/> 
+ </div>
+<div align=center>
+<center style="color:#000000;text-decoration:underline">Figure 5.  Land-space traffic accident scenarios for open-space video understanding and reasoning include
+  <span style="color:cyan;">intersection collisions</span>,
+  <span style="color:blue;">urban road accidents</span>,
+  <span style="color:gray;">nighttime incidents</span>,
+  <span style="color:orange;">rural road accidents</span>,
+  <span style="color:pink;">snow-covered road collisions</span>, and
+  <span style="color:green;">freeway accidents</span>.</center>
+ </div>
+ 
+
+
 ## Download Dataset
 
 You can download the dataset directly from our [Hugging Face repository](https://huggingface.co/datasets/Open-Space-Reasoning/Benchmark).
