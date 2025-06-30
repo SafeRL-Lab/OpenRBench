@@ -87,7 +87,7 @@ This benchmark includes approximately 2,000 videos and 19,000 human-annotated qu
 ### Dataset Format:
 
  <div align=center>
- <img src="./docs/figures/qa-example.png" width="85%"/> 
+ <img src="./docs/figures/qa-example.png" width="95%"/> 
  </div>
 <div align=center>
 <center style="color:#000000;text-decoration:underline">Figure 1.  A question and answer example: For each open-space reasoning setting, we include three
@@ -98,7 +98,7 @@ evaluate temporal reasoning, spatial reasoning, and intent reasoning.</center>
  
 ### Dataset Distribution:
  <div align=center>
- <img src="./docs/figures/data_distribution.png" width="85%"/> 
+ <img src="./docs/figures/data_distribution.png" width="95%"/> 
  </div>
 <div align=center>
 <center style="color:#000000;text-decoration:underline">Figure 2. Distribution of video and task properties in the M4R benchmark.</center>
@@ -109,7 +109,7 @@ evaluate temporal reasoning, spatial reasoning, and intent reasoning.</center>
 ### Three Space Settings
 
 <div align=center>
- <img src="./docs/figures/three-example-scenarios.png" width="85%"/> 
+ <img src="./docs/figures/three-example-scenarios.png" width="95%"/> 
  </div>
 <div align=center>
 <center style="color:#000000;text-decoration:underline">Figure 3. Examples of multimodal Understanding and Reasoning in Open-Space Scenarios.</center>
@@ -118,7 +118,7 @@ evaluate temporal reasoning, spatial reasoning, and intent reasoning.</center>
 ### Reasoning Settings:
 
  <div align=center>
- <img src="./docs/figures/reasoning-settings.png" width="85%"/> 
+ <img src="./docs/figures/reasoning-settings.png" width="95%"/> 
  </div>
 <div align=center>
 <center style="color:#000000;text-decoration:underline">Figure 4.  Examples of reasoning question settings in M4R across three key reasoning types: Temporal
@@ -130,7 +130,7 @@ understanding of goal-directed behaviors and decision-making in dynamic environm
  ### One Example in Land Space Settings:
 
  <div align=center>
- <img src="./docs/figures/land-space-examples.png" width="85%"/> 
+ <img src="./docs/figures/land-space-examples.png" width="95%"/> 
  </div>
 <div align=center>
 <center style="color:#000000;text-decoration:underline">Figure 5.  Land-space traffic accident scenarios for open-space video understanding and reasoning include
