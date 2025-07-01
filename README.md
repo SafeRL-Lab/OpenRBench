@@ -88,7 +88,7 @@ This benchmark includes approximately 2,000 videos and 19,000 human-annotated qu
 
 ```jsonc
 {
-  "id": int,
+  "id": ,
   "dataset": "str",
   "scene_name": "str",           // e.g., video filename
   "reasoning_style": "str",      // e.g., temporal_reasoning, intent_goal_reasoning, etc.
