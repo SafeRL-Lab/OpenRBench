@@ -100,7 +100,6 @@ This benchmark includes approximately 2,000 videos and 19,000 human-annotated qu
 
 One example from land space:
 ```jsonc
-[
   {
     "id": 1,
     "dataset": "air_space_long",
@@ -117,7 +116,6 @@ One example from land space:
       "F. [2,3]"
     ]
   }
-]
 ```
 
  <div align=center>
