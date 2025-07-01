@@ -89,7 +89,7 @@ This benchmark includes approximately 2,000 videos and 19,000 human-annotated qu
 ```jsonc
 {
   "id": ,
-  "dataset": "str",
+  "dataset": "str",              // e.g., sub dataset filename
   "scene_name": "str",           // e.g., video filename
   "reasoning_style": "str",      // e.g., temporal_reasoning, intent_goal_reasoning, etc.
   "question": "str",             // The reasoning question related to the scene
@@ -98,7 +98,7 @@ This benchmark includes approximately 2,000 videos and 19,000 human-annotated qu
 }
 ```
 
-One example from land space:
+One example from air space:
 ```jsonc
   {
     "id": 1,
