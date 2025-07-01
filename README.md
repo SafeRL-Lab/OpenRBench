@@ -86,6 +86,40 @@ This benchmark includes approximately 2,000 videos and 19,000 human-annotated qu
 
 ### Dataset Format:
 
+```jsonc
+{
+  "id": int,
+  "dataset": "str",
+  "scene_name": "str",           // e.g., video filename
+  "reasoning_style": "str",      // e.g., temporal_reasoning, intent_goal_reasoning, etc.
+  "question": "str",             // The reasoning question related to the scene
+  "ground_truth": "str",         // Correct answer key (e.g., "A", "B", etc.)
+  "options": ["str", "str", "str", "str", "str", "str"]  // Multiple-choice options
+}
+```
+
+One example from land space:
+```jsonc
+[
+  {
+    "id": 1,
+    "dataset": "air_space_long",
+    "scene_name": "air_space_long_1.mp4",
+    "reasoning_style": "intent_goal_reasoning",
+    "question": "How many moving airplanes are observed in this video?",
+    "ground_truth": "A",
+    "options": [
+      "E. [0,1]",
+      "C. [8,9]",
+      "A. [4,5]",
+      "D. [6,7]",
+      "B. [10,11]",
+      "F. [2,3]"
+    ]
+  }
+]
+```
+
  <div align=center>
  <img src="./docs/figures/qa-example.png" width="95%"/> 
  </div>
