@@ -42,7 +42,7 @@ def shuffle_temporal_causal(input_path, output_path):
 
     # Print result stats
     total = sum(ground_truth_counter.values())
-    print("\n✅ Ground Truth Label Distribution After Shuffle:")
+    print("\n Ground Truth Label Distribution After Shuffle:")
     for label in sorted(ground_truth_counter):
         count = ground_truth_counter[label]
         ratio = count / total
