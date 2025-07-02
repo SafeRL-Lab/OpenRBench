@@ -99,4 +99,4 @@ for item in data:
 with open(output_path, "w") as f:
     json.dump(data, f, indent=2)
 
-print(f"✅ Finished! Saved to {output_path}")
+print(f"Finished! Saved to {output_path}")
