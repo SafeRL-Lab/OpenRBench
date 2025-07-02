@@ -19,4 +19,4 @@ for idx, item in enumerate(data):
 with open(output_path, 'w') as f:
     json.dump(data, f, indent=2, ensure_ascii=False)
 
-print(f"✅ ID updated from {start_id}, saved to: {output_path}")
+print(f"ID updated from {start_id}, saved to: {output_path}")
