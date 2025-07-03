@@ -25,14 +25,13 @@
 ---
 
 # Content
-- [M4R: Measuring Massive Multimodal Understanding and Reasoning in Open Space](#M4R-Measuring-Massive-Multimodal-Understanding-and-Reasoning-in-Open-Space)
   - [Leaderboard](#Leaderboard)
-  - [About the Dataset:](#About-the-Dataset)
-    - [Dataset Format:](#Dataset-Format)
-    - [Dataset Distribution:](#Dataset-Distribution)
+  - [About the Dataset](#About-the-Dataset)
+    - [Dataset Format](#Dataset-Format)
+    - [Dataset Distribution](#Dataset-Distribution)
     - [Three Space Settings](#Three-Space-Settings)
-    - [Reasoning Settings:](#Reasoning-Settings)
-    - [One Example in Land Space Settings:](#One-Example-in-Land-Space-Settings)
+    - [Reasoning Settings](#Reasoning-Settings)
+    - [One Example in Land Space Settings](#One-Example-in-Land-Space-Settings)
   - [Installation](#Installation)
   - [Download Dataset](#Download-Dataset)
   - [Basic Usage](#Basic-Usage)
